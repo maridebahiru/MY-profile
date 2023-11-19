@@ -1,13 +1,17 @@
 export default function ContactMe() {
   return (
     <section id="Contact" className="contact--section">
-      <div>
-        <p className="sub--title">Get In Touch</p>
+      <div className="portfolio--container-box">
+      <div className="portfolio--container">
+      <p className="sub--title">Get In Touch</p>
+      <br/>
         <h2>Contact Me</h2>
         <p className="text-lg">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, odit.
+        In the dynamic realm where code weaves 
+        <br/>
+        the digital tapestry of the internet. 
         </p>
-      </div>
+      </div></div>
       <form className="contact--form--container">
         <div className="container">
           <label htmlFor="first-name" className="contact--label">
